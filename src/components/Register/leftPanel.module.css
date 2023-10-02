@@ -1,0 +1,44 @@
+.panel {
+  flex: 1;
+  position: relative;
+  background-color: black;
+}
+
+.img {
+  width: 50vw;
+  max-height: 100vh;
+  display: block;
+}
+
+.heading {
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+  right: 7%;
+  margin-bottom: 40px;
+  padding-right: 14%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.6rem;
+  line-height: 141%;
+  letter-spacing: 2%;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 500px) {
+  .img {
+    width: 100vw;
+    height: 30vh;
+  }
+  .heading {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 1608px) {
+  .heading {
+    font-size: 48px;
+  }
+}

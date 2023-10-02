@@ -1,0 +1,11 @@
+.register {
+  display: flex;
+  flex-direction: row;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 500px) {
+  .register {
+    flex-direction: column;
+  }
+}

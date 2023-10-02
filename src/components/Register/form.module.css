@@ -1,0 +1,105 @@
+.form {
+  flex: 1;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0% 23%;
+}
+
+.title {
+  font-family: "Single Day", cursive;
+  color: #72db73;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 7%;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  margin-top: 10px !important;
+  background-color: #292929;
+  border-radius: 5px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  padding-left: 4%;
+  letter-spacing: 2%;
+  font-size: small;
+}
+
+input::placeholder {
+  color: #7c7c7c;
+  font-size: smaller;
+}
+
+.tnc {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.checkbox {
+  color: #d9d9d9;
+  margin: 0;
+}
+
+.label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.65rem;
+  color: #7c7c7c;
+  letter-spacing: 2%;
+  padding: 0 3%;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 8px;
+  background-color: #72db73;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  margin: 2%;
+}
+
+.terms {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #7c7c7c;
+}
+
+.error {
+  color: red;
+  font-size: small;
+  margin: 0;
+  padding: 5px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 2%;
+}
+
+.error-input {
+  border: 0.5px solid red;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 500px) {
+  .form {
+    width: 100vw;
+    height: 70vh;
+  }
+}
