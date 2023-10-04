@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Register />} />
-          <Route path="/category" element={<Category />} />
+          <Route path="/category" element={<Category />} />  {/* added routing to category page */}
         </Routes>
       </BrowserRouter>
     </>
