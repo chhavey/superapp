@@ -1,0 +1,12 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 500px) {
+  .category {
+    flex-direction: column;
+  }
+}
