@@ -48,7 +48,7 @@ function Category() {
     if (selectedCardTile.length < 3) {
       setErrorMessage("Minimum 3 categories required");
     } else {
-      setErrorMessage("");
+      localStorage.setItem("category", JSON.stringify(selectedCardTile));
       navigate("/dashboard");
     }
   };

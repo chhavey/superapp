@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  padding: 2rem;
+  color: white;
+  background-color: black;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  min-height: 7rem;
+  min-width: 5rem;
+  border: 1px solid white;
+}
+
+.box1,
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box2,
+.box4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
