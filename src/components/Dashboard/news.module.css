@@ -1,0 +1,45 @@
+.newsCard {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  border-radius: 1rem;
+  max-width: 25vw;
+  min-width: 25vw;
+  border: none;
+}
+
+.newsHeader {
+  min-height: 55vh;
+  display: flex;
+  align-items: flex-end;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border: none;
+}
+
+.newsTitle {
+  background-color: #000000bd;
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 1rem;
+  font-size: large;
+}
+
+.newsDate {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.newsDescription {
+  min-height: 35vh;
+  background-color: white;
+  padding: 1rem 2rem;
+  text-align: justify;
+  color: #272727;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
