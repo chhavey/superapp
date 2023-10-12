@@ -15,6 +15,7 @@
   min-height: 7rem;
   min-width: 5rem;
   border: 1px solid white;
+  gap: 1rem;
 }
 
 .box1,

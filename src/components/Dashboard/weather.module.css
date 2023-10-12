@@ -1,0 +1,52 @@
+.weatherCard {
+  color: white;
+  border-radius: 1rem;
+}
+
+.weatherTime {
+  text-align: center;
+  background-color: #ff4ade;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  margin: 0;
+  padding: 0.75rem 0;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #101744;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.box {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.box h1 {
+  margin-bottom: 0.5rem;
+}
+.minibox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.minibox img {
+  padding-right: 1rem;
+}
