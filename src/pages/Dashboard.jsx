@@ -8,21 +8,28 @@ import Timer from "../components/Dashboard/Timer";
 
 function Dashboard() {
   return (
-    <div className={styles.container}>
-      <div className={styles.box1}>
-        <div className={styles.box2}>
-          <div className={styles.box3}>
-            <div className={styles.box4}>
-              <User />
-              <Weather />
-            </div>
+    <>
+      <div className={styles.main}>
+        <div className={styles.container}>
+          <div className={styles.item1}>
+            <User />
+          </div>
+          <div className={styles.item2}>
             <Notes />
           </div>
-          <Timer />
+          <div className={styles.item3}>
+            <News />
+          </div>
+          <div className={styles.item4}>
+            <Weather />
+          </div>
+          <div className={styles.item5}>
+            <Timer />
+          </div>
         </div>
-        <News />
+        <button className={styles.button}>Browse</button>
       </div>
-    </div>
+    </>
   );
 }
 

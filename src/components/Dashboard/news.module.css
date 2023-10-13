@@ -1,15 +1,12 @@
 .newsCard {
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
   border-radius: 1rem;
-  max-width: 25vw;
-  min-width: 25vw;
   border: none;
 }
 
 .newsHeader {
-  min-height: 55vh;
+  min-height: 50vh;
   display: flex;
   align-items: flex-end;
   border-top-right-radius: 1rem;
@@ -19,7 +16,6 @@
 
 .newsTitle {
   background-color: #000000bd;
-  width: 100%;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -33,7 +29,7 @@
 }
 
 .newsDescription {
-  min-height: 35vh;
+  min-height: 34vh;
   background-color: white;
   padding: 1rem 2rem;
   text-align: justify;
