@@ -10,7 +10,7 @@
 }
 
 .userImage {
-  height: 25vh;
+  max-height: 25vh;
   border: none;
   filter: drop-shadow(
     0px 8.796843528747559px 7.037475109100342px 0px #0000004f
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 1rem;
+  padding: 0 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   letter-spacing: 2%;
@@ -30,29 +30,42 @@
 }
 .userDetail {
   justify-content: space-between;
-  margin-bottom: 1.25rem;
-  margin-top: 1rem;
+  margin-bottom: 0.875rem;
 }
 .name,
 .email {
   margin: 0.2rem 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .username {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 .userCategory {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: fit-content;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
   gap: 0.5rem;
+  overflow-y: auto;
+  padding-right: 20px;
 }
+
+.userCategory::-webkit-scrollbar {
+  background-color: #9f94ff84;
+  width: 0.45rem;
+  border-radius: 0.5rem;
+}
+
+.userCategory::-webkit-scrollbar-thumb {
+  background-color: #ff6a6a;
+  border-radius: 1rem;
+}
+
 .categoryName {
   background: #9f94ff;
   border-radius: 1rem;
   color: #ffffff;
   font-size: 0.75rem;
-  padding: 0.5rem;
+  padding: 0.25rem 1rem;
 }

@@ -7,7 +7,7 @@ function Notes() {
       <div className={styles.notesCard}>
         <div className={styles.notes}>
           <h2>All notes</h2>
-          <textarea className={styles.textarea}></textarea>
+          <textarea name="notes" className={styles.textarea}></textarea>
         </div>
       </div>
     </>

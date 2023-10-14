@@ -1,6 +1,6 @@
 .main {
   position: relative;
-  padding: 1rem;
+  padding: 2rem;
   background-color: black;
   height: 100vh;
 }
@@ -26,16 +26,17 @@
   grid-row: 3;
 }
 
-.item1,
-.item2,
-.item3,
-.item4,
-.item5 {
-  border: 2px solid red;
-}
-
 .button {
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   margin-top: 1rem;
+  background-color: #148a08;
+  border-radius: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.02rem;
 }
