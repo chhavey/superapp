@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
 import styles from "./movies.module.css";
 import profile from "../../assets/profile-icon.png";
+import { useNavigate } from "react-router-dom";
 
 function Movies() {
   const [movie, setMovie] = useState([]);
   const genres = localStorage.getItem("category");
   const [selectedGenre, setSelectedGenre] = useState([]);
+  const navigate = useNavigate();
+
+  const dashboard = () => {
+    navigate("/dashboard");
+  };
 
   useEffect(() => {
     const fetchGenre = async () => {
@@ -39,7 +45,12 @@ function Movies() {
     <div className={styles.moviesCard}>
       <div className={styles.header}>
         <div className={styles.title}>Super app</div>
-        <img className={styles.profile} src={profile} alt="profile" />
+        <img
+          className={styles.profile}
+          src={profile}
+          onClick={dashboard}
+          alt="profile"
+        />
       </div>
 
       <div className={styles.browseMovies}>

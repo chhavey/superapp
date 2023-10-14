@@ -3,6 +3,9 @@
   padding: 2rem;
   background-color: black;
   height: 100vh;
+
+  display: flex;
+  flex-direction: column;
 }
 .container {
   display: grid;
@@ -29,7 +32,6 @@
 .button {
   position: absolute;
   right: 2rem;
-  margin-top: 1rem;
   background-color: #148a08;
   border-radius: 1.25rem;
   padding: 0.5rem 1.5rem;
@@ -39,4 +41,5 @@
   color: white;
   text-align: center;
   letter-spacing: 0.02rem;
+  bottom: 1rem;
 }
