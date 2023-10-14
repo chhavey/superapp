@@ -39,4 +39,30 @@
 }
 .displayMovies {
   color: white;
+  padding-bottom: 2rem;
+}
+
+.genreContainer {
+  color: #878787;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
+}
+
+.moviePoster {
+  width: 20vw;
+  height: 28vh;
+  object-fit: fill;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
 }
