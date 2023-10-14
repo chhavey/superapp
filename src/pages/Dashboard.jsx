@@ -5,8 +5,15 @@ import Weather from "../components/Dashboard/Weather";
 import News from "../components/Dashboard/News";
 import Notes from "../components/Dashboard/Notes";
 import Timer from "../components/Dashboard/Timer";
+import { useNavigate } from "react-router-dom";
 
 function Dashboard() {
+  const navigate = useNavigate();
+
+  const handleSubmit = () => {
+    navigate("/browse");
+  };
+
   return (
     <>
       <div className={styles.main}>
@@ -27,7 +34,9 @@ function Dashboard() {
             <Timer />
           </div>
         </div>
-        <button className={styles.button}>Browse</button>
+        <button className={styles.button} onClick={handleSubmit}>
+          Browse
+        </button>
       </div>
     </>
   );

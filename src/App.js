@@ -3,6 +3,7 @@ import './App.css';
 import Register from "./pages/Register";
 import Category from "./pages/Category";
 import Dashboard from "./pages/Dashboard";
+import Browse from "./pages/Browse";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Register />} />
           <Route path="/category" element={<Category />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/browse" element={<Browse />} />
         </Routes>
       </BrowserRouter>
     </>

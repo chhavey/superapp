@@ -1,0 +1,42 @@
+.moviesCard {
+  padding: 1rem 2rem;
+  height: 100vh;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Single Day", cursive;
+  color: #72db73;
+  font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+}
+
+.profile {
+  width: 5vw;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.browseMovies {
+  margin: 1rem;
+}
+
+.subTitle {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02rem;
+  text-align: left;
+}
+.displayMovies {
+  color: white;
+}
