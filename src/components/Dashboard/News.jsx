@@ -8,7 +8,8 @@ function News() {
   useEffect(() => {
     // const API_Key = "05b38fe0d73c48989a8a37f2b6c6b937";
     const API_URL =
-      "https://newsapi.org/v2/everything?q=apple&from=2023-10-09&to=2023-10-09&sortBy=popularity&apiKey=05b38fe0d73c48989a8a37f2b6c6b937";
+      "https://saurav.tech/NewsAPI/top-headlines/category/technology/in.json";
+    // "https://newsapi.org/v2/everything?q=apple&from=2023-10-09&to=2023-10-09&sortBy=popularity&apiKey=05b38fe0d73c48989a8a37f2b6c6b937";
 
     fetch(API_URL)
       .then((response) => response.json())
