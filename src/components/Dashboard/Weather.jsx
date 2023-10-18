@@ -12,7 +12,7 @@ function Weather() {
   useEffect(() => {
     //API_Key = 9e364f4fab404d25902133114231110
     const API_URL =
-      "http://api.weatherapi.com/v1/current.json?key=9e364f4fab404d25902133114231110&q=Jaipur&aqi=no";
+      "https://api.weatherapi.com/v1/current.json?key=9e364f4fab404d25902133114231110&q=Jaipur&aqi=no";
     fetch(API_URL)
       .then((response) => response.json())
       .then((data) => {
